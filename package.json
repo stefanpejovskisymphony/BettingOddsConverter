@@ -1,0 +1,10 @@
+{
+  "name": "bettingoddsconverter",
+  "version": "1.0.0",
+  "description": "Betting odds converter",
+  "repository": {
+	"type": "git",
+	"url": "?.git"
+  }
+  "author": "Stefan Pejovski"
+}
