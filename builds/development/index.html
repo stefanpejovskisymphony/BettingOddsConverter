@@ -2,9 +2,66 @@
 <html>
 <head>
 	<title></title>
-	<script type="text/javascript" src="js/script.js"></script>
+	<meta charset="UTF-8">
+    <title>QuickBetOnline</title>
+     <link href="/css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-<p>ddeed</p>
+    	<button type="button" class="round-button" data-toggle="modal" data-target="#oddsConverter">Open Modal</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="oddsConverter" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-header-row-1 hidden-xs">
+                            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle-o" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="modal-header-row-2 hidden-xs">
+                            <img class="pull-left" src="images/cube.png" alt="cube">
+                            <div class="clearfix"></div>
+                        <h4 class="modal-title text-center">Enter the odds</h4>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+					    <form>
+					        <div class="row">
+					            <div class="col-xs-4">
+					                <div class="input-group">
+					                    <span class="input-group-addon pointer" data-toggle="tooltip" title="Fractional Odds">UK</span>
+					                    <input type="text" class="form-control" placeholder="eg 11/4">
+					                </div>
+					            </div>
+					            <div class="col-xs-4">
+					                <div class="input-group">
+					                    <span class="input-group-addon pointer" data-toggle="tooltip" title="Decimal Odds">EU</span>
+					                    <input type="text" class="form-control" placeholder="eg 3.75">
+					                </div>
+					            </div>
+					            <div class="col-xs-4">
+					                <div class="input-group">
+					                    <span class="input-group-addon pointer" data-toggle="tooltip" title="Moneyline Odds">USA</span>
+					                    <input type="text" class="form-control" placeholder="eg +275">
+					                </div>
+					            </div>
+					        </div>
+					    </form>
+					    <div class="text-center">
+						    <div class="btn-group" role="group">
+							  <div class="buttons-modal"><button type="button" class="round-button">Convert</button></div>
+							  <div class="buttons-modal"><button type="button" class="round-button">Reset</button></div>
+							</div>
+						</div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

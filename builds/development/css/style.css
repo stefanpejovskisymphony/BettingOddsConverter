@@ -53,3 +53,113 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+.round-button {
+  display: block;
+  outline: none;
+  width: 150px;
+  height: 150px;
+  line-height: 50px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: #262626;
+  box-shadow: 0 0 3px gray;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.round-button:hover {
+  background: #464646;
+}
+
+.buttons-modal {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 30px;
+}
+
+input[type=text]:focus {
+  border: 1px solid #8a8484;
+  box-shadow: 0 0 10px #5c6065;
+}
+
+.modal-body .btn-default {
+  width: 100%;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px !important;
+}
+
+.modal-content {
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+}
+
+.modal-header {
+  background: transparent;
+  color: #fff;
+  padding: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.modal-header-row-1 {
+  min-height: 47px;
+  background: linear-gradient(134deg, rgba(0, 0, 0, 0) 400px, #222222 0px);
+}
+
+.modal-header-row-1 i {
+  font-size: 1.4em;
+}
+
+.modal-header-row-2 {
+  background-color: #222222;
+  height: 50px;
+}
+
+.modal-header-row-2 img {
+  left: 60px;
+  position: relative;
+  bottom: 15px;
+}
+
+.modal-body, .modal-footer {
+  background: #fff;
+}
+
+.modal-header .close {
+  margin-top: 10px !important;
+  margin-right: 13px !important;
+}
+
+.close {
+  color: #fff !important;
+  text-shadow: none !important;
+  font-size: 1.5em !important;
+  opacity: 1.0 !important;
+  font-weight: 100 !important;
+}
+
+.close:hover {
+  color: #969595 !important;
+}
+
+.modal-title {
+  bottom: 36px;
+  position: relative;
+}
+
+.error-container, .form-group {
+  margin: 10px 0;
+}

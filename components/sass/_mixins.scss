@@ -1,0 +1,36 @@
+// mixins
+// @media queries
+
+.round-button {
+    display:block;
+    outline: none;
+    width:150px;
+    height:150px;
+    line-height:50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #262626;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+}
+.pointer {
+	cursor: pointer;
+}
+.round-button:hover {
+    background: #464646;
+} 
+
+.buttons-modal {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 30px;
+}
+
+input[type=text]:focus {
+	border: 1px solid #8a8484;
+    box-shadow: 0 0 10px #5c6065;
+}

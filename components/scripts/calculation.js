@@ -1,1 +1,3 @@
-console.log("ssdsddfs");
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
