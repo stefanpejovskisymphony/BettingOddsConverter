@@ -14,18 +14,21 @@ First you should install Node.js (Tip: http://blog.teamtreehouse.com/install-nod
 
 #### After installed Node.js and Ruby, open 'Node.js command' and install Gulp.js and Browserify
 
+```
 npm install -g gulp
 
 npm install -g browserify
+```
 
 #### Next step, open 'Start Command Promt with Ruby' and install SASS and COMPASS:
 
+```
 gem update
 
 gem install sass
 
 gem install compass
-
+```
 
 
 # How to start you project
@@ -44,5 +47,3 @@ When you finish with that, write command GULP to start the project.
 # Technology
 
 AJAX with Jquery, JavaScript, HTML5, CSS3, Bootstrap, PHP
-
-***
