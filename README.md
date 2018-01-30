@@ -37,9 +37,9 @@ npm install
 (command with who you'll install all packages which this project use)
 
 #### Next step, you should put DATA.PHP file on server (example: Wamp or Apache) and change tha PATH in calculation.js file.
-
-url: "http://localhost:9000/data.php"  to your address 
-
+```
+url: "http://localhost:9000/data.php" to url: "yourAddress/data.php" 
+```
 When you finish with that, write command GULP to start the project.
 
 # Technology
