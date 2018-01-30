@@ -32,30 +32,30 @@
 					            <div class="col-xs-4">
 					                <div class="input-group">
 					                    <span class="input-group-addon pointer" data-toggle="tooltip" title="Fractional Odds">UK</span>
-					                    <input type="text" class="form-control" placeholder="eg 11/4">
+					                    <input id="ukOdds" type="text" class="form-control" placeholder="eg 11/4">
 					                </div>
 					            </div>
 					            <div class="col-xs-4">
 					                <div class="input-group">
 					                    <span class="input-group-addon pointer" data-toggle="tooltip" title="Decimal Odds">EU</span>
-					                    <input type="text" class="form-control" placeholder="eg 3.75">
+					                    <input id="euOdds" type="text" class="form-control" placeholder="eg 3.75">
 					                </div>
 					            </div>
 					            <div class="col-xs-4">
 					                <div class="input-group">
 					                    <span class="input-group-addon pointer" data-toggle="tooltip" title="Moneyline Odds">USA</span>
-					                    <input type="text" class="form-control" placeholder="eg +275">
+					                    <input id="usaOdds" type="text" class="form-control" placeholder="eg +275">
 					                </div>
 					            </div>
 					        </div>
 					    </form>
 					    <div class="text-center">
 						    <div class="btn-group" role="group">
-							  <div class="buttons-modal"><button type="button" class="round-button">Convert</button></div>
-							  <div class="buttons-modal"><button type="button" class="round-button">Reset</button></div>
+							  <div class="buttons-modal"><button id="convertOdds" type="button" class="round-button">Convert</button></div>
+							  <div class="buttons-modal"><button id="resetOdds" type="button" class="round-button">Reset</button></div>
 							</div>
 						</div>
-
+						<div id="messageError" style="display: none">Please enter your odd!</div>
                     </div>
                 </div>
 
@@ -63,5 +63,6 @@
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>  
 </body>
 </html>

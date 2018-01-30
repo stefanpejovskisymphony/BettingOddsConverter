@@ -22,7 +22,7 @@ if(env === 'development'){
 
 jsSources = [
 	'components/scripts/calculation.js',
-	'components/scripts/writing-data.js'
+	'components/scripts/fraction.js'
 ];
 
 sassSources = ['components/sass/style.scss'];

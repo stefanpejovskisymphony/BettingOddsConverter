@@ -102,9 +102,10 @@ input[type=text]:focus {
 
 .modal-content {
   background: transparent;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  border: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  border: none !important;
+  background-color: transparent !important;
 }
 
 .modal-header {

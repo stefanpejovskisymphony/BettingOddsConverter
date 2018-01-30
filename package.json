@@ -8,6 +8,7 @@
   },
   "author": "Stefan Pejovski",
   "devDependencies": {
+    "file-system": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
     "gulp-compass": "^2.1.0",
@@ -18,6 +19,9 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "jquery": "^3.3.1",
-    "mustache": "^2.3.0"
+    "jsonfile": "^4.0.0",
+    "mustache": "^2.3.0",
+    "odds-converter": "^1.0.4",
+    "oddslib": "^1.0.3"
   }
 }
